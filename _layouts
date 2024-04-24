@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{ site.title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <nav>
+      <a href="/">Inicio</a>
+      <a href="/about">Acerca de</a>
+    </nav>
+  </header>
+  {{ content }}
+</body>
+</html>
